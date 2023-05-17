@@ -1,100 +1,108 @@
-Johnny Coder
+Ayush Poddar
 ============
 
-----
+<div id='designation' class='text-center'>
+Senior Software Engineer
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+---
 
-----
+<ayush.mail.id@gmail.com> • [GitHub](https://github.com/ayushpoddar) • [LinkedIn](https://www.linkedin.com/in/ayushp/) • [Medium](https://medium.com/@ayushpoddar)
+
+---
+
+</div>
+
+
+Skills
+--------------------
+
+<div class='list-with-margin'>
+
+Technical Skills
+:   - __Proficient__: Ruby on Rails, PostgreSQL, REST, Git, _Debugging_
+    - __Intermediate__: MongoDB, Redis, Python
+    - __Hacker__: Golang, VueJS, JavaScript, HTML, CSS, C, AWS, Kubernetes, CI/CD, x86-64 Assembly
+
+Soft Skills
+:   - Leadership, Project Planning, Mentoring, Project Ownership
+
+</div>
+
+
+Professional Experience
+----------
+
+### Senior Software Engineer - [Clark, DE](https://www.clark.de/)<br><small class='text-normal'>_April 2021 to December 2022 (remote via [Toptal](https://www.toptal.com/))_</small>
+
+<div class='experience-type'>
+Technical responsibilities and achievements:
+</div>
+
+- **Designed, developed, and maintained** robust and efficient APIs for **customer onboarding journeys** using **Ruby on Rails**. This effort enhanced the **user experience** and increased **customer retention**.
+- Initiated and implemented an improvement to Clark's **A/B experiments framework**. This **eliminated the need for developer intevention** for configuration changes and **empowered product managers** to make direct changes from the admin panel. The result was a significant **acceleration in release cycles**.
+    - Maintained **backwards compatibility** to ensure seamless transition and **zero-disruption** user experience.
+- Fixed a critical bug in **Master Watcher**, a **Golang** script that imports GitHub commits to a Google sheet, **aiding the QA team** in prioritizing flaky tests.
+
+<div class='experience-type'>
+Ownership and Collaboration:
+</div>
+
+- Served as a member of the **core group** in the team. Regularly discussed **team priorities**, participated in deciding **team OKRs**, and tracked the progress of ongoing user stories.
+- Took **ownership** of multiple features and bugs, ensuring their completion. This involved proper **task breakdown**, making **reasonable trade-offs**, planning upcoming maintenance, and **collaborating** with product managers and other development teams.
+- **Led the strategizing of the transition** of the live chat service "Hermes" from NodeJS to Golang. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the sales team for optimal timing of migration. Ensured a seamless and **invisible migration** for customers who were online during the transition.
+- Oversaw the removal of Facebook login from the application based on a **cost-benefit analysis**. This process involved making modifications to our **EmberJS frontend** and a rigorous testing of the **password reset flow** to ensure a smooth transition for existing users.
+
+<hr class='short-line' />
+
+### Software Engineer - [Escale Solutions](https://www.escalesolutions.com/)<br><small class='text-normal'>_July 2018 to July 2020_</small>
+
+<div class='experience-type'>
+Technical responsibilities and achievements:
+</div>
+
+- Served as the sole backend developer on 5+ diverse projects, including a gamified social network ([Manscore](https://www.manscore.com/)) and a media streaming platform ([Scriptdoor](https://scriptdoor.com/)). This involved creating **high-level and low-level designs**, **database modelling**, development of **RESTful APIs**, **deployment**, and maintenance of client products, ensuring their stability and performance.
+- **Scriptdoor**: Implemented a wallet-based **payment system using tokens** that mimic real-world currency notes using tools like **SQL window functions**.
+    - This enabled secure, trackable, and flexible financial transactions on the platform.
+    - The system could also handle different token types and their unique attributes.
+
+<div class='experience-type'>
+Leadership and Mentoring:
+</div>
+
+- **Mentored a junior developer**, guiding him in mastering **Ruby on Rails**, leading to significant progress in his technical skills.
+- **Led a team** of 10+ developers, conducting daily scrum meetings, performing code reviews, overseeing project onboarding, and managing resources.
+
+<div class='experience-type'>
+Client management:
+</div>
+
+- Acted as the **primary point of contact** for clients, providing technical insights to facilitate optimal product development and mutual profitability.
+
+<hr class='short-line' />
+
+### Co-Founder - Farad Books<br><small class='text-normal'>_February 2016 to February 2018_</small>
+
+<div class='experience-type'>
+Technical responsibilities and achievements:
+</div>
+
+- Worked as the sole **backend developer** and was responsible for the **design, development, deployment and maintenance** of the full stack application using **Ruby on Rails**, **PostgreSQL**, **HTML**, **CSS**, **Javascript**, **CoffeeScript**, etc.
+- Implemented a real-time, relevance-based **search suggestion** feature using **Redis**, **jQuery**, and **custom middleware**, enhancing __user experience__ and boosting __site usability__.
+- Developed "Oye", an **in-house analytics tool** integrated within the Farad Books monorepo, to track user behavior, optimize user experience, and aid in **inventory management** by understanding user preferences.
+- Streamlined daily __inventory management__ by integrating distributor email attachments (Excel files) into our system, resulting in a time savings of 20+ minutes per day and guaranteeing access to the latest data.
+
+
+<div class='experience-type'>
+Marketing Responsibilities:
+</div>
+
+- Conceptualized and implemented the __"Keep A Book"__ feature based on customer behavior analysis, enabling customers to purchase borrowed books. This initiative led to a __revenue increase of ~150%__ and a __reduction in dead inventory by around ~40%__.
+- Engaged in __strategic partnerships__ with book clubs and upcoming publishers for mutual publicity, conducted online ads, distributed promotional materials, and initiated offline marketing campaigns to boost brand visibility and customer acquisition.
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2011-2015
+:   **Bachelor of Technology, Electrical Engineering** - Delhi Technological University, Delhi
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
-
-Experience
-----------
-
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
-
-Technical Experience
---------------------
-
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+    *Passed with First Class - 72.77%*
