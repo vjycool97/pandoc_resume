@@ -4,7 +4,7 @@ STYLES_DIR=styles
 STYLE=style
 
 all: html docx rtf
-pdf: html wkhtmltopdf
+pdf: html weasyprint
 open: open_pdf
 view: open_html
 
@@ -33,12 +33,11 @@ open_html: init
 		open $$f; \
 	done
 
-wkhtmltopdf: init
+weasyprint: init
 	for f in $(OUT_DIR)/*.html; do \
 		FILE_NAME=`basename $$f | sed 's/.html//g'`; \
 		echo $$FILE_NAME.pdf; \
-		wkhtmltopdf $$f $(OUT_DIR)/$$FILE_NAME.pdf; \
-		echo $(word 1, $(MAKECMDGOALS)); \
+		weasyprint -q $$f $(OUT_DIR)/$$FILE_NAME.pdf; \
 	done
 
 html: init
