@@ -29,7 +29,7 @@ Technical Skills
     - __Hacker__: Golang, VueJS, JavaScript, HTML, CSS, C, AWS, Kubernetes, CI/CD, x86-64 Assembly
 
 Soft Skills
-:   - Leadership, Project Planning, Mentoring, Project Ownership
+:   - Leadership, Project Planning, Mentoring, Project Ownership, Blogging
 
 </div>
 
@@ -54,7 +54,7 @@ Ownership and Collaboration:
 
 - Served as a member of the **core group** in the team. Regularly discussed **team priorities**, participated in deciding **team OKRs**, and tracked the progress of ongoing user stories.
 - Took **ownership** of multiple features and bugs, ensuring their completion. This involved proper **task breakdown**, making **reasonable trade-offs**, planning upcoming maintenance, and **collaborating** with product managers and other development teams.
-- **Led the strategizing of the transition** of the live chat service "Hermes" from NodeJS to Golang. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the sales team for optimal timing of migration. Ensured a seamless and **invisible migration** for customers who were online during the transition.
+- **Strategised the transition** of the live chat service "Hermes" from NodeJS to Golang. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the sales team for optimal timing of migration. Ensured a seamless and **invisible migration** for customers who were online during the transition.
 - Oversaw the removal of Facebook login from the application based on a **cost-benefit analysis**. This process involved making modifications to our **EmberJS frontend** and a rigorous testing of the **password reset flow** to ensure a smooth transition for existing users.
 
 <hr class='short-line' />
