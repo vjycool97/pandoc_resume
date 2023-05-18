@@ -20,11 +20,8 @@ view: open_html
 # 	done
 
 open_pdf: init
-	for f in $(OUT_DIR)/*.pdf; do \
-		FILE_NAME=`basename $$f | sed 's/.pdf//g'`; \
-		echo $$FILE_NAME.pdf; \
-		open $$f; \
-	done
+	@FILE_NAME=`ls -1r $(OUT_DIR)/*.pdf | head -n 1`; \
+	open $$FILE_NAME
 
 open_html: init
 	for f in $(OUT_DIR)/*.html; do \
