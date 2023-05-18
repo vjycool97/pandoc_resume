@@ -18,7 +18,7 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: nikeee/setup-pandoc@65d1fee002ea71e0d2a1c39bfa392c4e7ceba563
       uses: nikeee/setup-pandoc@v1
-      with: 3.1.2
+      with:
         pandoc-version: 3.1.2
         token: # optional, default is ${{ github.token }}
 
