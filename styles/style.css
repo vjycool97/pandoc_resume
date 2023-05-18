@@ -81,6 +81,10 @@ h2, h3 {
     text-align: center;
 }
 
+strong {
+    font-weight: 500;
+}
+
 ol, ul {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
