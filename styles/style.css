@@ -1,4 +1,9 @@
 <style type="text/css">
+
+@page {
+    size: Letter;
+    margin: 0.5cm;
+}
 /*
  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
  *
