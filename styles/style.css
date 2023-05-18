@@ -60,6 +60,13 @@ h2, h3 {
     margin-top: 1em;
 }
 
+.icon {
+    height: 1em;
+    vertical-align: middle;
+    margin-bottom: 0.3em;
+    color: #2a4030;
+}
+
 .text-normal {
     font-weight: normal;
 }
@@ -121,9 +128,18 @@ a:visited {
 
 a:hover, a:active {
     background-color: #397249;
+    padding: 0.2em 0.2em;
     color: #FFFFFF;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
+}
+
+a:hover .icon {
+    color: #FFFFFF;
+}
+
+a:active .icon {
+    color: #FFFFFF;
 }
 
 /* Horizontal separators */
