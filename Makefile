@@ -3,17 +3,42 @@ IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=style
 
-all: html pdf docx rtf
+all: html docx rtf
+pdf: html wkhtmltopdf
+open: open_pdf
+view: open_html
 
-pdf: init
-	for f in $(IN_DIR)/*.md; do \
-		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+# pdf: init
+# 	for f in $(IN_DIR)/*.md; do \
+# 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+# 		echo $$FILE_NAME.pdf; \
+# 		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+# 			--from markdown --to context \
+# 			--variable papersize=A4 \
+# 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+# 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+# 	done
+
+open_pdf: init
+	for f in $(OUT_DIR)/*.pdf; do \
+		FILE_NAME=`basename $$f | sed 's/.pdf//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
-			--from markdown --to context \
-			--variable papersize=A4 \
-			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
-		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		open $$f; \
+	done
+
+open_html: init
+	for f in $(OUT_DIR)/*.html; do \
+		FILE_NAME=`basename $$f | sed 's/.html//g'`; \
+		echo $$FILE_NAME.html; \
+		open $$f; \
+	done
+
+wkhtmltopdf: init
+	for f in $(OUT_DIR)/*.html; do \
+		FILE_NAME=`basename $$f | sed 's/.html//g'`; \
+		echo $$FILE_NAME.pdf; \
+		wkhtmltopdf $$f $(OUT_DIR)/$$FILE_NAME.pdf; \
+		echo $(word 1, $(MAKECMDGOALS)); \
 	done
 
 html: init
