@@ -44,8 +44,7 @@ Technical responsibilities and achievements:
 </div>
 
 - **Designed, developed, and maintained** robust and efficient APIs for **customer onboarding journeys** using **Ruby on Rails**. This effort enhanced the **user experience** and increased **customer retention**.
-- Initiated and implemented an improvement to Clark's **A/B experiments framework**. This **eliminated the need for developer intevention** for configuration changes and **empowered product managers** to make direct changes from the admin panel. The result was a significant **acceleration in release cycles**.
-    - Maintained **backwards compatibility** to ensure seamless transition and **zero-disruption** user experience.
+- Accelerated feature releases by upto 3 days at Clark by revamping the A/B experiments framework, eliminating developer intervention, and enabling product managers to make direct changes, all while maintaining backwards compatibility.
 - Fixed a critical bug in **Master Watcher**, a **Golang** script that imports GitHub commits to a Google sheet, **aiding the QA team** in prioritizing flaky tests.
 
 <div class='experience-type'>
@@ -76,11 +75,6 @@ Leadership and Mentoring:
 
 - **Mentored a junior developer**, guiding him in mastering **Ruby on Rails**, leading to significant progress in his technical skills.
 - **Led a team** of 10+ developers, conducting daily scrum meetings, performing code reviews, overseeing project onboarding, and managing resources.
-
-<div class='experience-type'>
-Client management:
-</div>
-
 - Acted as the **primary point of contact** for clients, providing technical insights to facilitate optimal product development and mutual profitability.
 
 <hr class='short-line' />
