@@ -64,10 +64,8 @@ Ownership and Collaboration:
 Technical responsibilities and achievements:
 </div>
 
-- Served as the sole backend developer on 5+ diverse projects, including a gamified social network ([Manscore](https://www.manscore.com/)) and a media streaming platform ([Scriptdoor](https://scriptdoor.com/)). This involved creating **high-level and low-level designs**, **database modelling**, development of **RESTful APIs**, **deployment**, and maintenance of client products, ensuring their stability and performance.
-- **Scriptdoor**: Implemented a wallet-based **payment system using tokens** that mimic real-world currency notes using tools like **SQL window functions**.
-    - This enabled secure, trackable, and flexible financial transactions on the platform.
-    - The system could also handle different token types and their unique attributes.
+- Sole backend developer on 5+ projects like [Manscore](https://www.manscore.com) (gamified social network) & [Scriptdoor](https://scriptdoor.com) (media streaming). Tasks included **high/low-level designs**, **database modeling**, **RESTful APIs**, **deployment** & maintaining client products for stability & performance.
+- Devised a unique **wallet-based payment system** for Scriptdoor using **SQL window functions**. It mimicked real-world cash denominations but with unlimited possibilities, enabling secure, **trackable** and flexible transactions.
 
 <div class='experience-type'>
 Leadership and Mentoring:
