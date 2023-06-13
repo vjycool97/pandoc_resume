@@ -24,7 +24,7 @@ Skills
 <div class='list-with-margin'>
 
 Technical Skills
-:   - __Proficient__: Ruby on Rails, PostgreSQL, REST, Git, _Debugging_
+:   - __Proficient__: Ruby on Rails, PostgreSQL, REST, Git, RSpec, TDD, _Debugging_
     - __Intermediate__: MongoDB, Redis, Python
     - __Hacker__: Golang, VueJS, JavaScript, HTML, CSS, C, AWS, Kubernetes, CI/CD, x86-64 Assembly
 
