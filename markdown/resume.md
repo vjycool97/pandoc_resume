@@ -10,10 +10,11 @@ Senior Software Engineer
 
 <div id='links'>
 
--------------------                                     ----------------------------
-<ayush.mail.id@gmail.com>                                 [medium.com/@ayushpoddar](https://medium.com/@ayushpoddar)
-[github.com/ayushpoddar](https://github.com/ayushpoddar)        [linkedin.com/ayushp](https://www.linkedin.com/in/ayushp/)
--------------------                                     ----------------------------
+-------------------                                                 ----------------------------
+<ayush.mail.id@gmail.com>                                                         +91-9560139423
+[github.com/ayushpoddar](https://github.com/ayushpoddar)                          [linkedin.com/ayushp](https://www.linkedin.com/in/ayushp/)
+[medium.com/@ayushpoddar](https://medium.com/@ayushpoddar)                        [poddarayush.com](https://poddarayush.com)
+-------------------                                                 ----------------------------
 
 </div>
 
