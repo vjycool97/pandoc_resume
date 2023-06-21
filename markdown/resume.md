@@ -111,5 +111,4 @@ Reference
 Krishna Swarup, <small class='text-normal'><br>_Engineering Manager,_ <br>_Clark DE_</small>
 :   - <swarooptk@gmail.com>
     - [linkedin.com/krishnaswarup](https://www.linkedin.com/in/krishnaswarup/)
-    - +91-73389-57742
-    - +49-176-77416374
+    - _Phone number can be provided on request_
