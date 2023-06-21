@@ -44,7 +44,7 @@ Professional Experience
 Technical responsibilities and achievements:
 </div>
 
-- **Designed, developed, and maintained** robust and efficient APIs for **customer onboarding journeys** using **Ruby on Rails**. This effort enhanced the **user experience** and increased **customer retention**.
+- **Designed, developed, and maintained** robust and efficient APIs for both new and existing **customer onboarding journeys** using **Ruby on Rails**. This effort enhanced the **user experience** and increased **customer retention**.
 - **Accelerated** feature releases by upto **3 days** at Clark by revamping the **A/B experiments** framework, eliminating developer intervention, and enabling product managers to make direct changes, all while maintaining **backwards compatibility**.
 - Fixed a critical bug in **Master Watcher**, a **Golang** script that imports GitHub commits to a Google sheet, **aiding the QA team** in prioritizing flaky tests.
 
@@ -54,7 +54,7 @@ Ownership and Collaboration:
 
 - Served as a member of the **core group** in the team. Regularly discussed **team priorities**, participated in deciding **team OKRs**, and tracked the progress of ongoing user stories.
 - Took **ownership** of multiple features and bugs, ensuring their completion. This involved proper **task breakdown**, making **reasonable trade-offs**, planning upcoming maintenance, and **collaborating** with product managers and other development teams.
-- **Strategised the transition** of the live chat service "Hermes" from NodeJS to Golang. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the sales team for optimal timing of migration. Ensured a seamless and **invisible migration** for customers who were online during the transition.
+- **Strategised the transition** of the live chat service "Hermes" from NodeJS to Golang, while also taking **ownership of its post-migration maintenance**. **Collaborated** with the infrastructure team to manage services using **Kubernetes** and the sales team for optimal timing of migration. Ensured a seamless and **invisible migration** for customers who were online during the transition.
 - Oversaw the removal of Facebook login from the application based on a **cost-benefit analysis**. This process involved making modifications to our **EmberJS frontend** and a rigorous testing of the **password reset flow** to ensure a smooth transition for existing users.
 
 <hr class='short-line' />
@@ -65,7 +65,7 @@ Ownership and Collaboration:
 Technical responsibilities and achievements:
 </div>
 
-- Sole backend developer on 5+ projects like [Manscore](https://www.manscore.com) (gamified social network) & [Scriptdoor](https://scriptdoor.com) (media streaming). Tasks included **high/low-level designs**, **database modeling**, **RESTful APIs**, **deployment** & maintaining client products for stability & performance.
+- Sole backend developer on overall 5+ projects like [Manscore](https://www.manscore.com) (gamified social network) & [Scriptdoor](https://scriptdoor.com) (media streaming). Tasks included **high/low-level designs**, **database modeling**, **RESTful APIs**, **deployment** & maintaining client products for stability & performance.
 - Devised a unique **wallet-based payment system** for Scriptdoor using **SQL window functions**. It mimicked real-world cash denominations but with unlimited possibilities, enabling secure, **trackable** and flexible transactions.
 
 <div class='experience-type'>
